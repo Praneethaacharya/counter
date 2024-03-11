@@ -8,7 +8,7 @@ const app = express();
 const PORT = process.env.PORT || 3001;
 
 const corsOptions = {
-    origin:'http://localhost:3000'
+    origin:'https://counter-five-tau.vercel.app/'
 }
 
 app.use(cors(corsOptions));
